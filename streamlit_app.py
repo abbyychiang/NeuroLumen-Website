@@ -366,6 +366,15 @@ st.markdown("<h2 style='text-align: center; color: #1768AC; font-size: 42px;'>Me
 # Creating a grid for images and descriptions
 st.markdown(
     """
+    <style>
+        /* Additional style for team images to set a consistent width */
+        .team-img {
+            width: 100%; /* Adjust the width as needed */
+            max-width: 300px; /* Set maximum width for consistency */
+            border-radius: 10px; /* Rounded corners for images */
+            margin-bottom: 10px;
+        }
+    </style>
     <div class="flex-container">
         <div class="custom-light-blue section">
             <img class="team-img" src="https://i.imgur.com/lSN6v0S.jpeg" alt="Abigail Chiang">
@@ -380,12 +389,12 @@ st.markdown(
         <div class="custom-light-blue section">
             <img class="team-img" src="https://i.imgur.com/KrjmJSt.png" alt="Parth Tornekar">
             <h2 class="team-name">Parth Tornekar</h2>
+            <!-- Add Parth's description here -->
         </div>
     </div>
     """,
     unsafe_allow_html=True
 )
-
 
 
 
