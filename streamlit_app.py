@@ -453,7 +453,7 @@ st.markdown("""
             width: 23%; /* Adjust width as needed for four questions in a row */
             margin: 10px;
             padding: 10px;
-            background-color: #F3F3F3; /* Light gray background color */
+            background-color: #BFE6FF; /* Lighter shade of blue */
             border-radius: 10px; /* Rounded corners */
             text-align: left;
             color: #1768AC; /* Adjust text color */
@@ -522,6 +522,7 @@ st.markdown("""
 st.markdown("<br><br>", unsafe_allow_html=True)
 
 # Rest of your code...
+
 
 
 
