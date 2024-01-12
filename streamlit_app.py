@@ -428,26 +428,18 @@ st.markdown("<br><br>", unsafe_allow_html=True)
 
 
 
-import streamlit as st
-
-# Your existing code...
-
-# Add some spacing before the FAQ section
-st.markdown("<br><br>", unsafe_allow_html=True)
-
-# FAQ Section
 st.markdown("""
     <style>
         /* Style for the FAQ section */
         .faq-section {
             display: flex;
-            justify-content: space-around;
             flex-wrap: wrap;
+            justify-content: space-between;
         }
 
         /* Style for individual FAQ questions */
         .faq-question {
-            flex: 1;
+            flex-basis: 48%; /* Adjust the width as needed for two rows of four */
             padding: 20px;
             margin: 10px;
             background-color: #DCEEFB; /* Lighter blue background color */
@@ -511,8 +503,6 @@ st.markdown("""
 
 # Add some spacing after the FAQ section
 st.markdown("<br><br>", unsafe_allow_html=True)
-
-# Rest of your code...
 
 
 
