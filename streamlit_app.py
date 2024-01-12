@@ -429,7 +429,6 @@ st.markdown("<br><br>", unsafe_allow_html=True)
 
 
 
-# Add CSS styles for the blue title and yellow boxes
 st.markdown("""
     <style>
         /* Styling for the FAQ title */
@@ -457,53 +456,46 @@ st.markdown("""
         .faq-answer {
             font-size: 20px;
         }
-
-        /* Styling to display FAQs in 2 columns */
-        .faq-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
-
-        .faq-box {
-            flex: 0 0 48%; /* Adjust width to fit 2 boxes per row */
-            box-sizing: border-box;
-        }
     </style>
 """, unsafe_allow_html=True)
 
 # FAQ section
 st.markdown("<h1 class='faq-title'>Frequently Asked Questions</h1>", unsafe_allow_html=True)
 
+# Using beta_columns to create a two-column layout
+col1, col2 = st.beta_columns(2)
+
 # FAQ 1
-st.markdown("<div class='faq-container'><div class='faq-box'><p class='faq-question'>Is NeuroLumen based on personal experience with Alzheimer's?</p><p class='faq-answer'>Absolutely. The inception of NeuroLumen is rooted in personal experiences, as our team was motivated by witnessing the impact of Alzheimer's on our own family members...</p></div>", unsafe_allow_html=True)
+with col1:
+    st.markdown("<div class='faq-box'><p class='faq-question'>Is NeuroLumen based on personal experience with Alzheimer's?</p><p class='faq-answer'>Absolutely. The inception of NeuroLumen is rooted in personal experiences, as our team was motivated by witnessing the impact of Alzheimer's on our own family members...</p></div>", unsafe_allow_html=True)
 
 # FAQ 2
-st.markdown("<div class='faq-box'><p class='faq-question'>How does NeuroLumen contribute to addressing global healthcare challenges?</p><p class='faq-answer'>NeuroLumen tackles the critical challenge of timely Alzheimer's Disease (AD) detection, particularly in remote or underserved areas where healthcare access is limited...</p></div>", unsafe_allow_html=True)
+with col2:
+    st.markdown("<div class='faq-box'><p class='faq-question'>How does NeuroLumen contribute to addressing global healthcare challenges?</p><p class='faq-answer'>NeuroLumen tackles the critical challenge of timely Alzheimer's Disease (AD) detection, particularly in remote or underserved areas where healthcare access is limited...</p></div>", unsafe_allow_html=True)
 
 # FAQ 3
-st.markdown("<div class='faq-box'><p class='faq-question'>What sets NeuroLumen apart from other diagnostic solutions?</p><p class='faq-answer'>NeuroLumen's unique approach integrates Low Field MRI (LFM) technology with concise clinical assessments, ensuring an accurate, convenient, and accessible Alzheimer's diagnosis...</p></div>", unsafe_allow_html=True)
+with col1:
+    st.markdown("<div class='faq-box'><p class='faq-question'>What sets NeuroLumen apart from other diagnostic solutions?</p><p class='faq-answer'>NeuroLumen's unique approach integrates Low Field MRI (LFM) technology with concise clinical assessments, ensuring an accurate, convenient, and accessible Alzheimer's diagnosis...</p></div>", unsafe_allow_html=True)
 
 # FAQ 4
-st.markdown("<div class='faq-box'><p class='faq-question'>Who is the target audience for NeuroLumen?</p><p class='faq-answer'>Our target audience includes individuals in underserved regions with limited hospital access and those who may struggle with lengthy MRI scans. NeuroLumen brings accessible diagnostics to their homes...</p></div></div>", unsafe_allow_html=True)
+with col2:
+    st.markdown("<div class='faq-box'><p class='faq-question'>Who is the target audience for NeuroLumen?</p><p class='faq-answer'>Our target audience includes individuals in underserved regions with limited hospital access and those who may struggle with lengthy MRI scans. NeuroLumen brings accessible diagnostics to their homes...</p></div>", unsafe_allow_html=True)
 
 # FAQ 5
-st.markdown("<div class='faq-container'><div class='faq-box'><p class='faq-question'>What makes NeuroLumen's diagnostic solution user-friendly?</p><p class='faq-answer'>NeuroLumen harnesses the power of Low Field MRI (LFM) technology, renowned for its user-friendliness and home applicability...</p></div>", unsafe_allow_html=True)
+with col1:
+    st.markdown("<div class='faq-box'><p class='faq-question'>What makes NeuroLumen's diagnostic solution user-friendly?</p><p class='faq-answer'>NeuroLumen harnesses the power of Low Field MRI (LFM) technology, renowned for its user-friendliness and home applicability...</p></div>", unsafe_allow_html=True)
 
 # FAQ 6
-st.markdown("<div class='faq-box'><p class='faq-question'>How can NeuroLumen be accessed?</p><p class='faq-answer'>NeuroLumen can be accessed through the internet, providing an accessible alternative for Alzheimer's diagnosis. The entire process can be completed from the comfort of one's home...</p></div>", unsafe_allow_html=True)
+with col2:
+    st.markdown("<div class='faq-box'><p class='faq-question'>How can NeuroLumen be accessed?</p><p class='faq-answer'>NeuroLumen can be accessed through the internet, providing an accessible alternative for Alzheimer's diagnosis. The entire process can be completed from the comfort of one's home...</p></div>", unsafe_allow_html=True)
 
 # FAQ 7
-st.markdown("<div class='faq-box'><p class='faq-question'>What are the key metrics that track NeuroLumen's success?</p><p class='faq-answer'>We employ online marketing to promote NeuroLumen as a convenient Alzheimer's diagnosis solution. The entire process can be completed from the comfort of one's home...</p></div>", unsafe_allow_html=True)
+with col1:
+    st.markdown("<div class='faq-box'><p class='faq-question'>What are the key metrics that track NeuroLumen's success?</p><p class='faq-answer'>We employ online marketing to promote NeuroLumen as a convenient Alzheimer's diagnosis solution. The entire process can be completed from the comfort of one's home...</p></div>", unsafe_allow_html=True)
 
 # FAQ 8
-st.markdown("<div class='faq-box'><p class='faq-question'>How will NeuroLumen make money to fund its operations?</p><p class='faq-answer'>We plan to generate revenue through a combination of research grants and donations. Research publications will contribute to our funding...</p></div></div>", unsafe_allow_html=True)
-
-
-
-
-
-
+with col2:
+    st.markdown("<div class='faq-box'><p class='faq-question'>How will NeuroLumen make money to fund its operations?</p><p class='faq-answer'>We plan to generate revenue through a combination of research grants and donations. Research publications will contribute to our funding...</p></div>", unsafe_allow_html=True)
 
 
 
