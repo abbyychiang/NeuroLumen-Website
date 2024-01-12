@@ -440,22 +440,19 @@ st.markdown("""
     <style>
         /* Style for the FAQ section */
         .faq-section {
-            text-align: center; /* Center the section */
-            background-color: #BFE6FF; /* Lighter blue background color */
-            padding: 20px;
-            border-radius: 10px; /* Rounded corners */
-            margin: 0 auto; /* Center the section */
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
         }
 
         /* Style for individual FAQ questions */
         .faq-question {
-            display: inline-block;
-            width: 23%; /* Adjust width as needed for four questions in a row */
+            flex: 1;
+            padding: 20px;
             margin: 10px;
-            padding: 10px;
-            background-color: #E0F2FE; /* Even lighter shade of blue */
+            background-color: #BFE6FF; /* Lighter blue background color */
             border-radius: 10px; /* Rounded corners */
-            text-align: left;
+            text-align: center;
             color: #1768AC; /* Adjust text color */
         }
 
@@ -466,7 +463,7 @@ st.markdown("""
 
         /* Larger font size for question headings */
         .faq-question h3 {
-            font-size: 24px; /* Adjust font size */
+            font-size: 20px; /* Adjust font size */
             margin-bottom: 10px;
         }
     </style>
@@ -493,12 +490,6 @@ st.markdown("""
             <h3><strong>How does NeuroLumen's sustainable advantage make it difficult for competitors to replicate?</strong></h3>
             <p>NeuroLumen's sustainable advantage lies in its intricate multi-year data fusion process. By combining neuroimaging, genomics, and clinical tests, we create a proprietary system that is both complex and challenging for competitors to replicate. This ensures our innovation remains at the forefront of early Alzheimer's detection.</p>
         </div>
-    </div>
-""", unsafe_allow_html=True)
-
-# Additional FAQ questions
-st.markdown("""
-    <div class="faq-section">
         <div class="faq-question">
             <h3><strong>Who is the target audience for NeuroLumen's diagnostic solution?</strong></h3>
             <p>Our target audience includes individuals in underserved regions with limited hospital access, especially those who face challenges with lengthy MRI scans. NeuroLumen brings the diagnostic experience to their homes, making it accessible and comfortable for early Alzheimer's detection.</p>
@@ -522,6 +513,7 @@ st.markdown("""
 st.markdown("<br><br>", unsafe_allow_html=True)
 
 # Rest of your code...
+
 
 
 
