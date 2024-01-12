@@ -430,11 +430,6 @@ st.markdown(
 
 
 
-
-
-
-import streamlit as st
-
 # CSS style for FAQ boxes
 st.markdown("""
     <style>
