@@ -441,7 +441,7 @@ st.markdown("""
         /* Style for the FAQ section */
         .faq-section {
             text-align: center; /* Center the section */
-            background-color: #ADD8E6; /* Light blue background color */
+            background-color: #BFE6FF; /* Lighter blue background color */
             padding: 20px;
             border-radius: 10px; /* Rounded corners */
             margin: 0 auto; /* Center the section */
@@ -453,7 +453,7 @@ st.markdown("""
             width: 23%; /* Adjust width as needed for four questions in a row */
             margin: 10px;
             padding: 10px;
-            background-color: #BFE6FF; /* Lighter shade of blue */
+            background-color: #E0F2FE; /* Even lighter shade of blue */
             border-radius: 10px; /* Rounded corners */
             text-align: left;
             color: #1768AC; /* Adjust text color */
@@ -522,10 +522,6 @@ st.markdown("""
 st.markdown("<br><br>", unsafe_allow_html=True)
 
 # Rest of your code...
-
-
-
-
 
 
 
