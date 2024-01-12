@@ -367,10 +367,11 @@ st.markdown("<h2 style='text-align: center; color: #1768AC; font-size: 42px;'>Me
 st.markdown(
     """
     <style>
-        /* Additional style for team images to set a consistent width */
+        /* Additional style for team images to set a consistent width and height */
         .team-img {
-            width: 100%; /* Adjust the width as needed */
-            max-width: 300px; /* Set maximum width for consistency */
+            width: 200px; /* Adjust the width as needed */
+            height: 200px; /* Adjust the height as needed */
+            object-fit: cover; /* Maintain aspect ratio and cover the container */
             border-radius: 10px; /* Rounded corners for images */
             margin-bottom: 10px;
         }
