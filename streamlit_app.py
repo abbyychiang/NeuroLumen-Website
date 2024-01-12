@@ -378,17 +378,14 @@ st.markdown(
             <p>Kaashvi is a sophomore at Saint Francis High School, who is interested in artificial intelligence and computer science. As a leader of her school’s Girls Who Code Club, she teaches a variety of programming languages to other students through hands-on labs and coding activities...</p>
         </div>
         <div class="custom-light-blue section">
-            <img class="team-img" src="https://imgur.com/a/TNz1yjL" alt="Parth Tornekar">
+            <img class="team-img" src="https://i.imgur.com/KrjmJSt.png" alt="Parth Tornekar">
             <h2 class="team-name">Parth Tornekar</h2>
-            <p>Description for Parth Tornekar goes here...</p>
+            <!-- Add Parth's description here -->
         </div>
-        <!-- Add other team members here -->
     </div>
     """,
     unsafe_allow_html=True
 )
-
-
 
 
 
