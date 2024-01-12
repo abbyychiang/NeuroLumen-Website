@@ -405,70 +405,12 @@ st.markdown(
 
 
 
-
-
 # Contact Us Section
 st.markdown("<h2 style='text-align: center; color: #1768AC; font-size: 42px;'>Contact Us</h2>", unsafe_allow_html=True)
 
-st.markdown(
-    """
-    <style>
-        /* Style for the contact form container */
-        .contact-form {
-            max-width: 600px; /* Adjust the maximum width as needed */
-            margin: 0 auto; /* Center the form on the page */
-        }
-
-        /* Style for form inputs and textarea */
-        .contact-input {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 15px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            box-sizing: border-box;
-            font-size: 16px;
-        }
-
-        /* Style for the submit button */
-        .contact-submit {
-            background-color: #1768AC;
-            color: white;
-            padding: 10px 15px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 18px;
-        }
-
-        .contact-submit:hover {
-            background-color: #124466; /* Darker shade on hover */
-        }
-    </style>
-    
-    <div class="contact-form">
-        <!-- Form with input fields for Name, Email, and Message -->
-        <form>
-            <label for="name">Your Name:</label>
-            <input type="text" id="name" name="name" class="contact-input" required>
-
-            <label for="email">Your Email:</label>
-            <input type="email" id="email" name="email" class="contact-input" required>
-
-            <label for="message">Your Message:</label>
-            <textarea id="message" name="message" rows="4" class="contact-input" required></textarea>
-
-            <!-- Submit button -->
-            <button type="submit" class="contact-submit">Submit</button>
-        </form>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
-
-
-
-
+# Display Google Form
+google_form_url = "https://forms.gle/y4rZBxnSJMUoTpHi9"
+st.markdown(f'<iframe src="{google_form_url}" width="800" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>', unsafe_allow_html=True)
 
 
 
