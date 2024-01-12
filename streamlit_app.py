@@ -455,8 +455,49 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
+st.markdown("""
+    <style>
+        /* Styling for the FAQ title */
+        .faq-title {
+            color: #1768AC; /* Blue color */
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+
+        /* Styling for the FAQ boxes */
+        .faq-box {
+            background-color: #FFD700; /* Yellow color */
+            padding: 20px;
+            margin: 10px 10px;
+            border-radius: 10px;
+        }
+
+        /* Styling for the FAQ question and answer */
+        .faq-question {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .faq-answer {
+            font-size: 20px;
+        }
+
+        /* Styling to display four FAQs per row */
+        .faq-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+    </style>
+""", unsafe_allow_html=True)
+
 # FAQ section
 st.markdown("<h1 class='faq-title'>Frequently Asked Questions</h1>", unsafe_allow_html=True)
+
+# Display FAQs in rows
+st.markdown("<div class='faq-row'>", unsafe_allow_html=True)
 
 # FAQ 1
 st.markdown("<div class='faq-box'><p class='faq-question'>Is NeuroLumen based on personal experience with Alzheimer's?</p><p class='faq-answer'>Absolutely. The inception of NeuroLumen is rooted in personal experiences, as our team was motivated by witnessing the impact of Alzheimer's on our own family members...</p></div>", unsafe_allow_html=True)
@@ -482,8 +523,8 @@ st.markdown("<div class='faq-box'><p class='faq-question'>What are the key metri
 # FAQ 8
 st.markdown("<div class='faq-box'><p class='faq-question'>How will NeuroLumen make money to fund its operations?</p><p class='faq-answer'>We plan to generate revenue through a combination of research grants and donations. Research publications will contribute to our funding...</p></div>", unsafe_allow_html=True)
 
-
-
+# Close the FAQ row
+st.markdown("</div>", unsafe_allow_html=True)
 
 
 
