@@ -361,6 +361,10 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
+
+st.markdown("<br><br>", unsafe_allow_html=True)
+
+
 st.markdown("<h2 style='text-align: center; color: #1768AC; font-size: 42px;'>Meet the Team</h2>", unsafe_allow_html=True)
 
 # Creating a grid for images and descriptions
