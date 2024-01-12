@@ -368,25 +368,23 @@ st.markdown(
     """
     <div class="flex-container">
         <div class="custom-light-blue section">
-            <img class="team-img" src="https://i.postimg.cc/756wT6Y2/abigail-chiang.jpg" alt="Abigail Chiang">
+            <img class="team-img" src="https://i.imgur.com/lSN6v0S.jpeg" alt="Abigail Chiang">
             <h2 class="team-name">Abigail Chiang</h2>
             <p>Abby is a sophomore from Palos Verdes Peninsula High School, from the South Bay with a deep passion for the intersection of AI and technology. Alongside her work with Neurolumen, she aims to bridge the gap in STEM education and foster creativity and innovation for a brighter future.</p>
         </div>
         <div class="custom-light-blue section">
-            <img class="team-img" src="https://i.postimg.cc/xJC9L1P7/kaashvi.jpg" alt="Kaashvi Mittal">
+            <img class="team-img" src="https://i.imgur.com/85TI2YJ.jpeg" alt="Kaashvi Mittal">
             <h2 class="team-name">Kaashvi Mittal</h2>
             <p>Kaashvi is a sophomore at Saint Francis High School, who is interested in artificial intelligence and computer science. As a leader of her school’s Girls Who Code Club, she teaches a variety of programming languages to other students through hands-on labs and coding activities...</p>
         </div>
         <div class="custom-light-blue section">
             <img class="team-img" src="https://i.imgur.com/KrjmJSt.png" alt="Parth Tornekar">
             <h2 class="team-name">Parth Tornekar</h2>
-            <!-- Add Parth's description here -->
         </div>
     </div>
     """,
     unsafe_allow_html=True
 )
-
 
 
 
