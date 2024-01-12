@@ -441,7 +441,7 @@ st.markdown("""
         /* Style for the FAQ section */
         .faq-section {
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
             flex-wrap: wrap;
         }
 
@@ -450,7 +450,7 @@ st.markdown("""
             flex: 1;
             padding: 20px;
             margin: 10px;
-            background-color: #BFE6FF; /* Lighter blue background color */
+            background-color: #DCEEFB; /* Lighter blue background color */
             border-radius: 10px; /* Rounded corners */
             text-align: center;
             color: #1768AC; /* Adjust text color */
@@ -463,7 +463,7 @@ st.markdown("""
 
         /* Larger font size for question headings */
         .faq-question h3 {
-            font-size: 20px; /* Adjust font size */
+            font-size: 18px; /* Adjust font size */
             margin-bottom: 10px;
         }
     </style>
