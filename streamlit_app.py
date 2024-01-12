@@ -413,17 +413,6 @@ st.markdown("<br><br>", unsafe_allow_html=True)
 
 
 
-# Contact Us Section
-st.markdown("<h2 style='text-align: center; color: #1768AC; font-size: 42px;'>Contact Us</h2>", unsafe_allow_html=True)
-
-# Centered Display of Google Form
-google_form_url = "https://forms.gle/y4rZBxnSJMUoTpHi9"
-st.markdown(
-    f'<div style="display: flex; justify-content: center; align-items: center; height: 600px;">'
-    f'<iframe src="{google_form_url}" width="800" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>'
-    f'</div>', 
-    unsafe_allow_html=True
-)
 
 
 
@@ -434,7 +423,7 @@ st.markdown(
 
 
 
-import streamlit as st
+
 
 # FAQ section
 st.title("Frequently Asked Questions")
@@ -482,7 +471,38 @@ with col2:
     st.subheader("What alternatives exist for Alzheimer's diagnosis?")
     st.write("Current alternatives, such as the Self-Administered Gerocognitive Exam (SAGE), primarily detect AD symptoms in later stages. NeuroLumen advances early diagnosis through accessible low-field MRI...")
 
-# Repeat the pattern for more FAQs...
+
+
+
+
+
+
+
+
+
+
+# Contact Us Section
+st.markdown("<h2 style='text-align: center; color: #1768AC; font-size: 42px;'>Contact Us</h2>", unsafe_allow_html=True)
+
+# Centered Display of Google Form
+google_form_url = "https://forms.gle/y4rZBxnSJMUoTpHi9"
+st.markdown(
+    f'<div style="display: flex; justify-content: center; align-items: center; height: 600px;">'
+    f'<iframe src="{google_form_url}" width="800" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>'
+    f'</div>', 
+    unsafe_allow_html=True
+)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
