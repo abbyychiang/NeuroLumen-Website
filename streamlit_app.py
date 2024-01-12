@@ -152,6 +152,9 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
+st.markdown("<br><br>", unsafe_allow_html=True)
+
+
 st.markdown("<h2 style='text-align: center; color: #1768AC; font-size: 50px;'>How NeuroLumen Works</h2>", unsafe_allow_html=True)
 
 # NeuroLumen Workflow Pathway: Backend Model
