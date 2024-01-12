@@ -427,8 +427,7 @@ st.markdown("<br><br>", unsafe_allow_html=True)
 
 
 
-# Set page title and icon
-st.set_page_config(page_title="NeuroLumen", page_icon="https://i.imgur.com/unbYWKD.jpg", layout="wide")
+
 
 # Add CSS styles for the blue title and yellow boxes
 st.markdown("""
