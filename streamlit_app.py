@@ -428,7 +428,6 @@ st.markdown("<br><br>", unsafe_allow_html=True)
 
 
 
-
 import streamlit as st
 
 # Your existing code...
@@ -463,6 +462,12 @@ st.markdown("""
         .faq-section p {
             margin: 0;
         }
+
+        /* Larger font size for question headings */
+        .faq-question h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
     </style>
 """, unsafe_allow_html=True)
 
@@ -472,19 +477,19 @@ st.markdown("<h2>Frequently Asked Questions</h2>", unsafe_allow_html=True)
 st.markdown("""
     <div class="faq-section">
         <div class="faq-question">
-            <p><strong>Is NeuroLumen based on personal experience with Alzheimer's?</strong></p>
+            <h3><strong>Is NeuroLumen based on personal experience with Alzheimer's?</strong></h3>
             <p>Absolutely. The inception of NeuroLumen is rooted in personal experiences, as our team was motivated by witnessing the impact of Alzheimer's on our own family members. This heartfelt connection fuels our commitment to creating a solution that addresses the pressing need for accessible and early Alzheimer's diagnosis.</p>
         </div>
         <div class="faq-question">
-            <p><strong>How does NeuroLumen contribute to addressing global healthcare challenges?</strong></p>
+            <h3><strong>How does NeuroLumen contribute to addressing global healthcare challenges?</strong></h3>
             <p>NeuroLumen tackles the critical challenge of timely Alzheimer's Disease (AD) detection, particularly in remote or underserved areas where healthcare access is limited. By leveraging low-field MRI technology, our innovation pioneers a cost-effective approach, ensuring equitable healthcare access and closing the diagnostic gap.</p>
         </div>
         <div class="faq-question">
-            <p><strong>What sets NeuroLumen apart from existing alternatives like SAGE?</strong></p>
+            <h3><strong>What sets NeuroLumen apart from existing alternatives like SAGE?</strong></h3>
             <p>Unlike current alternatives such as the Self-Administered Gerocognitive Exam (SAGE), which primarily detect AD symptoms in later stages, NeuroLumen focuses on early diagnosis. By integrating Low Field MRI (LFM) technology and precise clinical assessments, our solution offers a unique and holistic approach for accurate, convenient, and home-based Alzheimer's diagnosis.</p>
         </div>
         <div class="faq-question">
-            <p><strong>How does NeuroLumen's sustainable advantage make it difficult for competitors to replicate?</strong></p>
+            <h3><strong>How does NeuroLumen's sustainable advantage make it difficult for competitors to replicate?</strong></h3>
             <p>NeuroLumen's sustainable advantage lies in its intricate multi-year data fusion process. By combining neuroimaging, genomics, and clinical tests, we create a proprietary system that is both complex and challenging for competitors to replicate. This ensures our innovation remains at the forefront of early Alzheimer's detection.</p>
         </div>
     </div>
@@ -494,19 +499,19 @@ st.markdown("""
 st.markdown("""
     <div class="faq-section">
         <div class="faq-question">
-            <p><strong>Who is the target audience for NeuroLumen's diagnostic solution?</strong></p>
+            <h3><strong>Who is the target audience for NeuroLumen's diagnostic solution?</strong></h3>
             <p>Our target audience includes individuals in underserved regions with limited hospital access, especially those who face challenges with lengthy MRI scans. NeuroLumen brings the diagnostic experience to their homes, making it accessible and comfortable for early Alzheimer's detection.</p>
         </div>
         <div class="faq-question">
-            <p><strong>How will NeuroLumen reach its initial customers, and what will the diagnostic process involve?</strong></p>
+            <h3><strong>How will NeuroLumen reach its initial customers, and what will the diagnostic process involve?</strong></h3>
             <p>NeuroLumen will utilize online channels to market itself as an accessible alternative for Alzheimer's diagnosis. The entire diagnostic process, including clinical tests with basic questions, can be conveniently completed at home. This approach aligns with our commitment to providing a user-friendly and home-based solution.</p>
         </div>
         <div class="faq-question">
-            <p><strong>What are the key metrics that NeuroLumen will track for success?</strong></p>
+            <h3><strong>What are the key metrics that NeuroLumen will track for success?</strong></h3>
             <p>Key metrics for success include online marketing effectiveness, user engagement, and the successful completion of the Alzheimer's diagnosis process from home. By focusing on these metrics, we aim to ensure that NeuroLumen's impact is both widespread and user-friendly.</p>
         </div>
         <div class="faq-question">
-            <p><strong>How does NeuroLumen plan to generate revenue to support its operations?</strong></p>
+            <h3><strong>How does NeuroLumen plan to generate revenue to support its operations?</strong></h3>
             <p>NeuroLumen plans to generate revenue through a combination of research grants and donations. Research publications will contribute to funding, and we welcome donations to support the expenses associated with transporting Low Field MRI units to patients, ensuring continued operation and accessibility.</p>
         </div>
     </div>
@@ -516,4 +521,50 @@ st.markdown("""
 st.markdown("<br><br>", unsafe_allow_html=True)
 
 # Rest of your code...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import streamlit as st
+
+# Contact Us Section
+st.markdown("<h2 style='text-align: center; color: #1768AC; font-size: 42px;'>Contact Us</h2>", unsafe_allow_html=True)
+
+# Centered Display of Google Form
+google_form_url = "https://forms.gle/y4rZBxnSJMUoTpHi9"
+st.markdown(
+    f'<div style="display: flex; justify-content: center; align-items: center; height: 600px;">'
+    f'<iframe src="{google_form_url}" width="800" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>'
+    f'</div>', 
+    unsafe_allow_html=True
+)
+
 
