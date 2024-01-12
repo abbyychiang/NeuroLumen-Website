@@ -392,11 +392,14 @@ st.markdown(
             <h2 class="team-name">Parth Tornekar</h2>
             <!-- Add Parth's description here -->
         </div>
+        <div class="custom-light-blue section">
+            <h2 class="team-name">Aarav Minocha</h2>
+            <!-- Add Aarav's description here -->
+        </div>
     </div>
     """,
     unsafe_allow_html=True
 )
-
 
 
 
