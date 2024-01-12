@@ -441,7 +441,7 @@ st.markdown("""
         /* Style for the FAQ section */
         .faq-section {
             text-align: center; /* Center the section */
-            background-color: #FFFF99; /* Yellow background color */
+            background-color: #ADD8E6; /* Light blue background color */
             padding: 20px;
             border-radius: 10px; /* Rounded corners */
             margin: 0 auto; /* Center the section */
@@ -453,9 +453,10 @@ st.markdown("""
             width: 23%; /* Adjust width as needed for four questions in a row */
             margin: 10px;
             padding: 10px;
-            background-color: #FFFFCC; /* Light yellow background color */
+            background-color: #F3F3F3; /* Light gray background color */
             border-radius: 10px; /* Rounded corners */
             text-align: left;
+            color: #1768AC; /* Adjust text color */
         }
 
         /* Adjust spacing for better aesthetics */
@@ -465,13 +466,13 @@ st.markdown("""
 
         /* Larger font size for question headings */
         .faq-question h3 {
-            font-size: 20px;
+            font-size: 24px; /* Adjust font size */
             margin-bottom: 10px;
         }
     </style>
 """, unsafe_allow_html=True)
 
-st.markdown("<h2>Frequently Asked Questions</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center; color: #1768AC;'>Frequently Asked Questions</h2>", unsafe_allow_html=True)
 
 # Individual FAQ questions
 st.markdown("""
