@@ -430,32 +430,9 @@ st.markdown(
 
 
 
-# CSS style for FAQ boxes
-st.markdown("""
-    <style>
-        /* Styling for FAQ boxes */
-        .faq-box {
-            width: 22%;
-            padding: 20px;
-            margin: 20px;
-            background-color: #E8F3FD; /* Light blue background */
-            border-radius: 10px;
-            text-align: left;
-        }
 
-        /* Style for FAQ question */
-        .faq-question {
-            color: #1768AC;
-            font-size: 24px;
-            margin-bottom: 10px;
-        }
 
-        /* Style for FAQ answer */
-        .faq-answer {
-            font-size: 18px;
-        }
-    </style>
-""", unsafe_allow_html=True)
+
 
 # FAQ section
 st.markdown("<h2 style='text-align: center; color: #1768AC; font-size: 42px;'>Frequently Asked Questions</h2>", unsafe_allow_html=True)
@@ -524,6 +501,43 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
+
+
+
+
+
+
+
+
+
+
+
+# CSS style for FAQ boxes
+st.markdown("""
+    <style>
+        /* Styling for FAQ boxes */
+        .faq-box {
+            width: 22%;
+            padding: 20px;
+            margin: 20px;
+            background-color: #E8F3FD; /* Light blue background */
+            border-radius: 10px;
+            text-align: left;
+        }
+
+        /* Style for FAQ question */
+        .faq-question {
+            color: #1768AC;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        /* Style for FAQ answer */
+        .faq-answer {
+            font-size: 18px;
+        }
+    </style>
+""", unsafe_allow_html=True)
 
 
 
