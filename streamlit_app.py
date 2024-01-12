@@ -429,73 +429,62 @@ st.markdown("<br><br>", unsafe_allow_html=True)
 
 
 
+st.markdown("<br><br>", unsafe_allow_html=True)
+
+# FAQ Section
 st.markdown("""
     <style>
-        /* Styling for the FAQ title */
-        .faq-title {
-            color: #1768AC; /* Blue color */
-            font-size: 36px;
-            margin-bottom: 30px;
-        }
-
-        /* Styling for the FAQ boxes */
-        .faq-box {
-            background-color: #FFD700; /* Yellow color */
+        /* Style for the FAQ section */
+        .faq-section {
+            text-align: center; /* Center the section */
+            background-color: #FFFF99; /* Yellow background color */
             padding: 20px;
-            margin: 10px 10px;
-            border-radius: 10px;
+            border-radius: 10px; /* Rounded corners */
+            margin: 0 auto; /* Center the section */
         }
 
-        /* Styling for the FAQ question and answer */
+        /* Style for individual FAQ questions */
         .faq-question {
-            font-size: 24px;
-            font-weight: bold;
-            margin-bottom: 10px;
+            display: inline-block;
+            width: 23%; /* Adjust width as needed for four questions in a row */
+            margin: 10px;
+            padding: 10px;
+            background-color: #FFFFCC; /* Light yellow background color */
+            border-radius: 10px; /* Rounded corners */
+            text-align: left;
         }
 
-        .faq-answer {
-            font-size: 20px;
+        /* Adjust spacing for better aesthetics */
+        .faq-section p {
+            margin: 0;
         }
     </style>
 """, unsafe_allow_html=True)
 
-# FAQ section
-st.markdown("<h1 class='faq-title'>Frequently Asked Questions</h1>", unsafe_allow_html=True)
+st.markdown("<h2>Frequently Asked Questions</h2>", unsafe_allow_html=True)
 
-# Using beta_container to create a two-row, four-column layout
-faq_container = st.beta_container()
+# Individual FAQ questions
+st.markdown("""
+    <div class="faq-section">
+        <div class="faq-question">
+            <p><strong>Is NeuroLumen based on personal experience with Alzheimer's?</strong></p>
+            <p>Absolutely. The inception of NeuroLumen is rooted in personal experiences...</p>
+        </div>
+        <div class="faq-question">
+            <p><strong>How does NeuroLumen contribute to addressing global healthcare challenges?</strong></p>
+            <p>NeuroLumen tackles the critical challenge of timely Alzheimer's Disease (AD) detection...</p>
+        </div>
+        <div class="faq-question">
+            <p><strong>What sets NeuroLumen apart from existing alternatives like SAGE?</strong></p>
+            <p>Unlike current alternatives such as the Self-Administered Gerocognitive Exam (SAGE)...</p>
+        </div>
+        <div class="faq-question">
+            <p><strong>How does NeuroLumen's sustainable advantage make it difficult for competitors to replicate?</strong></p>
+            <p>NeuroLumen's sustainable advantage lies in its intricate multi-year data fusion process...</p>
+        </div>
+        <!-- Repeat the structure for other FAQ questions -->
+    </div>
+""", unsafe_allow_html=True)
 
-# FAQ 1
-with faq_container:
-    st.markdown("<div class='faq-box'><p class='faq-question'>Is NeuroLumen based on personal experience with Alzheimer's?</p><p class='faq-answer'>Absolutely. The inception of NeuroLumen is rooted in personal experiences, as our team was motivated by witnessing the impact of Alzheimer's on our own family members...</p></div>", unsafe_allow_html=True)
-
-# FAQ 2
-with faq_container:
-    st.markdown("<div class='faq-box'><p class='faq-question'>How does NeuroLumen contribute to addressing global healthcare challenges?</p><p class='faq-answer'>NeuroLumen tackles the critical challenge of timely Alzheimer's Disease (AD) detection, particularly in remote or underserved areas where healthcare access is limited...</p></div>", unsafe_allow_html=True)
-
-# FAQ 3
-with faq_container:
-    st.markdown("<div class='faq-box'><p class='faq-question'>What sets NeuroLumen apart from other diagnostic solutions?</p><p class='faq-answer'>NeuroLumen's unique approach integrates Low Field MRI (LFM) technology with concise clinical assessments, ensuring an accurate, convenient, and accessible Alzheimer's diagnosis...</p></div>", unsafe_allow_html=True)
-
-# FAQ 4
-with faq_container:
-    st.markdown("<div class='faq-box'><p class='faq-question'>Who is the target audience for NeuroLumen?</p><p class='faq-answer'>Our target audience includes individuals in underserved regions with limited hospital access and those who may struggle with lengthy MRI scans. NeuroLumen brings accessible diagnostics to their homes...</p></div>", unsafe_allow_html=True)
-
-# FAQ 5
-with faq_container:
-    st.markdown("<div class='faq-box'><p class='faq-question'>What makes NeuroLumen's diagnostic solution user-friendly?</p><p class='faq-answer'>NeuroLumen harnesses the power of Low Field MRI (LFM) technology, renowned for its user-friendliness and home applicability...</p></div>", unsafe_allow_html=True)
-
-# FAQ 6
-with faq_container:
-    st.markdown("<div class='faq-box'><p class='faq-question'>How can NeuroLumen be accessed?</p><p class='faq-answer'>NeuroLumen can be accessed through the internet, providing an accessible alternative for Alzheimer's diagnosis. The entire process can be completed from the comfort of one's home...</p></div>", unsafe_allow_html=True)
-
-# FAQ 7
-with faq_container:
-    st.markdown("<div class='faq-box'><p class='faq-question'>What are the key metrics that track NeuroLumen's success?</p><p class='faq-answer'>We employ online marketing to promote NeuroLumen as a convenient Alzheimer's diagnosis solution. The entire process can be completed from the comfort of one's home...</p></div>", unsafe_allow_html=True)
-
-# FAQ 8
-with faq_container:
-    st.markdown("<div class='faq-box'><p class='faq-question'>How will NeuroLumen make money to fund its operations?</p><p class='faq-answer'>We plan to generate revenue through a combination of research grants and donations. Research publications will contribute to our funding...</p></div>", unsafe_allow_html=True)
-
-
-
+# Add some spacing after the FAQ section
+st.markdown("<br><br>", unsafe_allow_html=True)
