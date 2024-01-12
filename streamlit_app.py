@@ -576,12 +576,6 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-import streamlit as st
-
-# Set page title and icon
-st.set_page_config(page_title="NeuroLumen", page_icon="https://i.imgur.com/unbYWKD.jpg", layout="wide")
-
-# Add CSS styles for the blue title and yellow boxes
 st.markdown("""
     <style>
         /* Styling for the FAQ title */
@@ -650,7 +644,6 @@ st.markdown("<div class='faq-box'><p class='faq-question'>What are the key metri
 
 # FAQ 8
 st.markdown("<div class='faq-box'><p class='faq-question'>How will NeuroLumen make money to fund its operations?</p><p class='faq-answer'>We plan to generate revenue through a combination of research grants and donations. Research publications will contribute to our funding...</p></div></div>", unsafe_allow_html=True)
-
 
 
 
