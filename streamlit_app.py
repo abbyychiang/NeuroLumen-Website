@@ -479,7 +479,7 @@ st.markdown("""
             <p>Our target audience includes individuals in underserved regions with limited hospital access, especially those who face challenges with lengthy MRI scans. NeuroLumen brings the diagnostic experience to their homes, making it accessible and comfortable for early Alzheimer's detection.</p>
         </div>
         <div class="faq-question">
-            <h3><strong>How will NeuroLumen reach its initial customers, and what will the diagnostic process involve?</strong></h3>
+            <h3><strong>How will NeuroLumen reach its initial customers?</strong></h3>
             <p>NeuroLumen will utilize online channels to market itself as an accessible alternative for Alzheimer's diagnosis. The entire diagnostic process, including clinical tests with basic questions, can be conveniently completed at home. This approach aligns with our commitment to providing a user-friendly and home-based solution.</p>
         </div>
        
