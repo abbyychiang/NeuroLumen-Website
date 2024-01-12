@@ -373,16 +373,20 @@ st.markdown(
             <p>Abby is a sophomore from Palos Verdes Peninsula High School, from the South Bay with a deep passion for the intersection of AI and technology. Alongside her work with Neurolumen, she aims to bridge the gap in STEM education and foster creativity and innovation for a brighter future.</p>
         </div>
         <div class="custom-light-blue section">
-            <img class="team-img" src="https://i.postimg.cc/xJC9L1P7/kaashvi.jpg" alt="Kaashvi">
+            <img class="team-img" src="https://i.postimg.cc/xJC9L1P7/kaashvi.jpg" alt="Kaashvi Mittal">
             <h2 class="team-name">Kaashvi Mittal</h2>
             <p>Kaashvi is a sophomore at Saint Francis High School, who is interested in artificial intelligence and computer science. As a leader of her school’s Girls Who Code Club, she teaches a variety of programming languages to other students through hands-on labs and coding activities...</p>
+        </div>
+        <div class="custom-light-blue section">
+            <img class="team-img" src="https://imgur.com/a/TNz1yjL" alt="Parth Tornekar">
+            <h2 class="team-name">Parth Tornekar</h2>
+            <p>Description for Parth Tornekar goes here...</p>
         </div>
         <!-- Add other team members here -->
     </div>
     """,
     unsafe_allow_html=True
 )
-
 
 
 
