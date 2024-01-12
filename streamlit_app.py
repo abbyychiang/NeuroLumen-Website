@@ -434,110 +434,55 @@ st.markdown(
 
 
 
+import streamlit as st
+
 # FAQ section
-st.markdown("<h2 style='text-align: center; color: #1768AC; font-size: 42px;'>Frequently Asked Questions</h2>", unsafe_allow_html=True)
+st.title("Frequently Asked Questions")
 
-# FAQ Box 1
-st.markdown("""
-    <div class="faq-box">
-        <div class="faq-question">Is NeuroLumen based on personal experience with Alzheimer's?</div>
-        <div class="faq-answer">Absolutely. The inception of NeuroLumen is rooted in personal experiences, as our team was motivated by witnessing the impact of Alzheimer's on our own family members...</div>
-    </div>
-""", unsafe_allow_html=True)
+# Using st.columns to create a layout with 2 columns
+col1, col2 = st.columns(2)
 
-# FAQ Box 2
-st.markdown("""
-    <div class="faq-box">
-        <div class="faq-question">How does NeuroLumen contribute to addressing global healthcare challenges?</div>
-        <div class="faq-answer">NeuroLumen tackles the critical challenge of timely Alzheimer's Disease (AD) detection, particularly in remote or underserved areas where healthcare access is limited...</div>
-    </div>
-""", unsafe_allow_html=True)
+# FAQ 1
+with col1:
+    st.subheader("Is NeuroLumen based on personal experience with Alzheimer's?")
+    st.write("Absolutely. The inception of NeuroLumen is rooted in personal experiences, as our team was motivated by witnessing the impact of Alzheimer's on our own family members...")
 
-# FAQ Box 3
-st.markdown("""
-    <div class="faq-box">
-        <div class="faq-question">What sets NeuroLumen apart from existing diagnostic solutions?</div>
-        <div class="faq-answer">NeuroLumen integrates Low Field MRI technology and clinical data to offer a unique and accessible Alzheimer's diagnosis solution...</div>
-    </div>
-""", unsafe_allow_html=True)
+# FAQ 2
+with col2:
+    st.subheader("How does NeuroLumen contribute to addressing global healthcare challenges?")
+    st.write("NeuroLumen tackles the critical challenge of timely Alzheimer's Disease (AD) detection, particularly in remote or underserved areas where healthcare access is limited...")
 
-# FAQ Box 4
-st.markdown("""
-    <div class="faq-box">
-        <div class="faq-question">How does the Low Field MRI technology contribute to the accessibility of the diagnosis?</div>
-        <div class="faq-answer">Low Field MRI makes the diagnostic process more user-friendly and home-applicable, ensuring a convenient and accurate Alzheimer's diagnosis at home...</div>
-    </div>
-""", unsafe_allow_html=True)
+# FAQ 3
+with col1:
+    st.subheader("What sets NeuroLumen apart from existing diagnostic solutions?")
+    st.write("NeuroLumen integrates Low Field MRI technology and clinical data to offer a unique and accessible Alzheimer's diagnosis solution...")
 
-# FAQ Box 5
-st.markdown("""
-    <div class="faq-box">
-        <div class="faq-question">Can individuals in remote rural areas benefit from NeuroLumen?</div>
-        <div class="faq-answer">Yes, our initial focus is on individuals in remote rural areas with limited healthcare access and transportation options...</div>
-    </div>
-""", unsafe_allow_html=True)
+# FAQ 4
+with col2:
+    st.subheader("How does the Low Field MRI technology contribute to the accessibility of the diagnosis?")
+    st.write("Low Field MRI makes the diagnostic process more user-friendly and home-applicable, ensuring a convenient and accurate Alzheimer's diagnosis at home...")
 
-# FAQ Box 6
-st.markdown("""
-    <div class="faq-box">
-        <div class="faq-question">How will NeuroLumen be delivered to customers?</div>
-        <div class="faq-answer">We will utilize the internet to market NeuroLumen as an accessible alternative to diagnose Alzheimer's. The entire process can be completed at home...</div>
-    </div>
-""", unsafe_allow_html=True)
+# FAQ 5
+with col1:
+    st.subheader("Who developed NeuroLumen?")
+    st.write("NeuroLumen was developed by a dedicated team of individuals with a passion for the intersection of AI and healthcare. Our diverse team includes...")
 
-# FAQ Box 7
-st.markdown("""
-    <div class="faq-box">
-        <div class="faq-question">What makes the data fusion process in NeuroLumen unique?</div>
-        <div class="faq-answer">Our sustainable advantage is our unique, multi-year data fusion process, integrating neuroimaging for brain structure and genomics with clinical tests...</div>
-    </div>
-""", unsafe_allow_html=True)
+# FAQ 6
+with col2:
+    st.subheader("Is NeuroLumen a theoretical concept or a tangible solution?")
+    st.write("NeuroLumen is not just a theory. We have developed a tangible solution, including a physical prototype and a machine learning model with a high accuracy rate...")
 
-# FAQ Box 8
-st.markdown("""
-    <div class="faq-box">
-        <div class="faq-question">How will NeuroLumen generate revenue for ongoing operations?</div>
-        <div class="faq-answer">We plan to generate revenue through a combination of research grants, donations, and research publications...</div>
-    </div>
-""", unsafe_allow_html=True)
+# FAQ 7
+with col1:
+    st.subheader("How does NeuroLumen ensure the safety of user data?")
+    st.write("User privacy and data security are paramount for NeuroLumen. We use non-intrusive technology, and gathered data, such as uploaded images, is not stored...")
 
+# FAQ 8
+with col2:
+    st.subheader("What alternatives exist for Alzheimer's diagnosis?")
+    st.write("Current alternatives, such as the Self-Administered Gerocognitive Exam (SAGE), primarily detect AD symptoms in later stages. NeuroLumen advances early diagnosis through accessible low-field MRI...")
 
-
-
-
-
-
-
-
-
-
-
-# CSS style for FAQ boxes
-st.markdown("""
-    <style>
-        /* Styling for FAQ boxes */
-        .faq-box {
-            width: 22%;
-            padding: 20px;
-            margin: 20px;
-            background-color: #E8F3FD; /* Light blue background */
-            border-radius: 10px;
-            text-align: left;
-        }
-
-        /* Style for FAQ question */
-        .faq-question {
-            color: #1768AC;
-            font-size: 24px;
-            margin-bottom: 10px;
-        }
-
-        /* Style for FAQ answer */
-        .faq-answer {
-            font-size: 18px;
-        }
-    </style>
-""", unsafe_allow_html=True)
+# Repeat the pattern for more FAQs...
 
 
 
