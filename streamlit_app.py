@@ -369,9 +369,6 @@ st.markdown("""
 st.markdown("<br><br>", unsafe_allow_html=True)
 
 
-st.markdown("<h2 style='text-align: center; color: #1768AC; font-size: 42px;'>Meet the Team</h2>", unsafe_allow_html=True)
-
-# Creating a grid for images and descriptions
 st.markdown(
     """
     <style>
@@ -398,9 +395,7 @@ st.markdown(
         <div class="custom-light-blue section">
             <img class="team-img" src="https://i.imgur.com/KrjmJSt.png" alt="Parth Tornekar">
             <h2 class="team-name">Parth Tornekar</h2>
-        <p>Parth is a senior in high school, and is interested in aeronautical engineering and international relations. Parth loves existing in the intersection between engineering and humanities. He loves Model UN, and has secretariated on six different continents, and is the Chief Operations and Projects Officer for FIRST Robotics Competition Team 422, President of the Photography Club, and is involved with the debate team along with TSA. Parth is also an avid member of the Civil Air Patrol, where he is the Command Chief of his Squadron, and is training to be a Private Pilot. He also enjoys chocolate and teddy bears.</p>
-    </div>
-""", unsafe_allow_html=True)
+            <p>Parth is a senior in high school, and is interested in aeronautical engineering and international relations. Parth loves existing in the intersection between engineering and humanities. He loves Model UN, and has secretariated on six different continents, and is the Chief Operations and Projects Officer for FIRST Robotics Competition Team 422, President of the Photography Club, and is involved with the debate team along with TSA. Parth is also an avid member of the Civil Air Patrol, where he is the Command Chief of his Squadron, and is training to be a Private Pilot. He also enjoys chocolate and teddy bears.</p>
         </div>
         <div class="custom-light-blue section">
             <h2 class="team-name">Aarav Minocha</h2>
@@ -412,7 +407,6 @@ st.markdown(
 )
 
 st.markdown("<br><br>", unsafe_allow_html=True)
-
 
 
 
