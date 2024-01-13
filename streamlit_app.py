@@ -310,9 +310,8 @@ st.markdown(
 st.markdown("<br><br>", unsafe_allow_html=True)
 
 
-
-
-st.markdown("""
+st.markdown(
+    """
     <style>
         /* Additional style for team images to set a consistent width and height */
         .team-img {
@@ -327,7 +326,7 @@ st.markdown("""
         <div class="custom-light-blue section">
             <img class="team-img" src="https://i.imgur.com/lSN6v0S.jpeg" alt="Abigail Chiang">
             <h2 class="team-name">Abigail Chiang</h2>
-            <p>Abby is a sophomore in high school with a deep passion for the intersection of AI and technology. Alongside her work with Neurolumen, she aims to bridge the gap in STEM education and foster creativity and innovation for a brighter future...</p>
+            <p>Abby is a sophomore in high school with a deep passion for the intersection of AI and technology. Alongside her work with Neurolumen, she aims to bridge the gap in STEM education and foster creativity and innovation for a brighter future.</p>
         </div>
         <div class="custom-light-blue section">
             <img class="team-img" src="https://i.imgur.com/85TI2YJ.jpeg" alt="Kaashvi Mittal">
@@ -338,18 +337,18 @@ st.markdown("""
             <img class="team-img" src="https://i.imgur.com/KrjmJSt.png" alt="Parth Tornekar">
             <h2 class="team-name">Parth Tornekar</h2>
             <p>Parth is a senior in high school, and is interested in aeronautical engineering and international relations. Parth loves existing in the intersection between engineering and humanities. He loves Model UN, and has secretariated on six different continents...</p>
-         </div>
+        </div>
         <div class="custom-light-blue section">
-        <img class="team-img" src="https://i.imgur.com/bjTyLPA.png" alt="Aarav Minocha">
-        <h2 class="team-name">Aarav Minocha</h2>
-        <p>Aarav is a junior in high school, who is interested in neuroscience and philosophy. He is deeply interested in the intersection between tangible research and abstract concepts and ideas that can spring from scientific innovation...</p>
+            <img class="team-img" src="https://i.imgur.com/bjTyLPA.png" alt="Aarav Minocha">
+            <h2 class="team-name">Aarav Minocha</h2>
+            <p>Aarav is a junior in high school, who is interested in neuroscience and philosophy. He is deeply interested in the intersection between tangible research and abstract concepts and ideas that can spring from scientific innovation...</p>
+        </div>
     </div>
-</div>
-""", unsafe_allow_html=True)
+    """,
+    unsafe_allow_html=True
+)
 
-
-
-
+st.markdown("<br><br>", unsafe_allow_html=True)
 
 
 
