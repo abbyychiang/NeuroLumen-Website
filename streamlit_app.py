@@ -395,8 +395,7 @@ st.markdown(
         <div class="custom-light-blue section">
             <img class="team-img" src="https://i.imgur.com/KrjmJSt.png" alt="Parth Tornekar">
             <h2 class="team-name">Parth Tornekar</h2>
-            <p>Parth is a senior in high school, and is interested in aeronautical engineering and international relations. Parth loves existing in the intersection between engineering and humanities. He loves Model UN, and has secretariated on six different continents, and is the Chief Operations and Projects Officer for FIRST Robotics Competition Team 422, President of the Photography Club, and is involved with the debate team along with TSA. Parth is also an avid member of the Civil Air Patrol, where he is the Command Chief of his Squadron, and is training to be a Private Pilot. He also enjoys chocolate and teddy bears.</p>
-        </div>
+            <p>Parth is a senior in high school, and is interested in aeronautical engineering and international relations. Parth loves existing in the intersection between engineering and humanities. He loves Model UN, and has secretariated on six different continents...</p>
         <div class="custom-light-blue section">
             <h2 class="team-name">Aarav Minocha</h2>
             <!-- Add Aarav's description here -->
