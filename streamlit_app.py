@@ -327,7 +327,7 @@ st.markdown("""
         <div class="custom-light-blue section">
             <img class="team-img" src="https://i.imgur.com/lSN6v0S.jpeg" alt="Abigail Chiang">
             <h2 class="team-name">Abigail Chiang</h2>
-            <p>Abby is a sophomore in high school with a deep passion for the intersection of AI and technology. Alongside her work with Neurolumen, she aims to bridge the gap in STEM education and foster creativity and innovation for a brighter future.</p>
+            <p>Abby is a sophomore in high school with a deep passion for the intersection of AI and technology. Alongside her work with Neurolumen, she aims to bridge the gap in STEM education and foster creativity and innovation for a brighter future...</p>
         </div>
         <div class="custom-light-blue section">
             <img class="team-img" src="https://i.imgur.com/85TI2YJ.jpeg" alt="Kaashvi Mittal">
