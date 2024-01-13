@@ -340,16 +340,12 @@ st.markdown("""
             <p>Parth is a senior in high school, and is interested in aeronautical engineering and international relations. Parth loves existing in the intersection between engineering and humanities. He loves Model UN, and has secretariated on six different continents...</p>
          </div>
         <div class="custom-light-blue section">
-            <img class="team-img" src="https://i.imgur.com/bjTyLPA.png" alt="Aarav Minocha">
-            <h2 class="team-name">Aarav Minocha</h2>
-            <p>Aarav is a junior in high school, who is interested in neuroscience and philosophy. He is deeply interested in the intersection between tangible research and abstract concepts and ideas that can spring from scientific innovation…</p>
-        </div>
+        <img class="team-img" src="https://i.imgur.com/bjTyLPA.png" alt="Aarav Minocha">
+        <h2 class="team-name">Aarav Minocha</h2>
+        <p>Aarav is a junior in high school, who is interested in neuroscience and philosophy. He is deeply interested in the intersection between tangible research and abstract concepts and ideas that can spring from scientific innovation...</p>
     </div>
-    """,
-    unsafe_allow_html=True
-)
-
-
+</div>
+""", unsafe_allow_html=True)
 
 
 
