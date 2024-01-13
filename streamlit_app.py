@@ -340,6 +340,7 @@ st.markdown("""
             <p>Parth is a senior in high school, and is interested in aeronautical engineering and international relations. Parth loves existing in the intersection between engineering and humanities. He loves Model UN, and has secretariated on six different continents...</p>
          </div>
         <div class="custom-light-blue section">
+            <img class="team-img" src="https://i.imgur.com/bjTyLPA.png" alt="Aarav Minocha">
             <h2 class="team-name">Aarav Minocha</h2>
             <!-- Add Aarav's description here -->
         </div>
@@ -347,8 +348,6 @@ st.markdown("""
     """,
     unsafe_allow_html=True
 )
-
-st.markdown("<br><br>", unsafe_allow_html=True)
 
 
 
