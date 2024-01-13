@@ -313,65 +313,6 @@ st.markdown(
 
 st.markdown("""
     <style>
-        /* Define a specific light blue color */
-        .custom-light-blue {
-            background-color: #BFE6FF; /* Lighter shade of blue */
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 10px; /* Rounded corners */
-            border: 2px solid #ADD8E6; /* Border color */
-        }
-
-        /* Flex container to arrange sections horizontally */
-        .flex-container {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-        }
-
-        /* Style for each individual section */
-        .section {
-            flex: 1;
-            padding: 20px;
-            margin: 0 10px; /* Add some spacing between sections */
-            max-width: 400px; /* Set maximum width for consistency */
-        }
-
-        /* Apply larger font size to headers */
-        .section h2 {
-            font-size: 36px;
-            color: #1768AC; /* Adjust text color */
-        }
-
-        /* Apply larger font size to paragraph */
-        .section p {
-            font-size: 24px;
-            color: black;
-        }
-
-        /* Team member name style */
-        .team-name {
-            font-size: 28px;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-        
-        /* Image style */
-        .team-img {
-            max-width: 100%;
-            border-radius: 10px; /* Rounded corners for images */
-            margin-bottom: 10px;
-        }
-    </style>
-""", unsafe_allow_html=True)
-
-
-st.markdown("<br><br>", unsafe_allow_html=True)
-
-
-st.markdown(
-    """
-    <style>
         /* Additional style for team images to set a consistent width and height */
         .team-img {
             width: 200px; /* Adjust the width as needed */
@@ -396,6 +337,8 @@ st.markdown(
             <img class="team-img" src="https://i.imgur.com/KrjmJSt.png" alt="Parth Tornekar">
             <h2 class="team-name">Parth Tornekar</h2>
             <p>Parth is a senior in high school, and is interested in aeronautical engineering and international relations. Parth loves existing in the intersection between engineering and humanities. He loves Model UN, and has secretariated on six different continents...</p>
+        </div>
+        </div> <!-- Closing tag for Parth Tornekar's section -->
         <div class="custom-light-blue section">
             <h2 class="team-name">Aarav Minocha</h2>
             <!-- Add Aarav's description here -->
@@ -404,8 +347,6 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
-st.markdown("<br><br>", unsafe_allow_html=True)
 
 
 
