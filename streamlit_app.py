@@ -342,7 +342,7 @@ st.markdown("""
         <div class="custom-light-blue section">
             <img class="team-img" src="https://i.imgur.com/bjTyLPA.png" alt="Aarav Minocha">
             <h2 class="team-name">Aarav Minocha</h2>
-            <!-- Add Aarav's description here -->
+            <p>Aarav is a junior in high school, who is interested in neuroscience and philosophy. He is deeply interested in the intersection between tangible research and abstract concepts and ideas that can spring from scientific innovation…</p>
         </div>
     </div>
     """,
